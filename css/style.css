@@ -1,0 +1,688 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color:#262626;
+    color: white;
+}
+
+.mynav
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    padding: 10px 100px;
+    box-sizing: border-box;
+    transition: .5s;
+    z-index: 99;
+}
+
+.mynav.black
+{
+    background: rgba(0,0,0,.8);
+    height: 90px;
+    padding: 10px 50px;
+}
+
+.navbar
+{
+    background-color: transparent !important;
+}
+
+.navbar .navbar-brand
+{
+    float: left;
+}
+
+.navbar .navbar-brand img
+{
+    height: 70px;
+    transition: .5s;
+}
+
+.navbar .navbar-nav
+{
+    margin: 0 auto;
+}
+
+.navbar .nav-item a
+{
+    color: white !important;
+    margin-left: 1.2em;
+    padding: 5px 20px;
+    font-size: medium;
+    font-family: 'Roboto' , sans-serif;
+    border: 2px solid white;
+    transition: .5s;
+}
+
+
+.navbar .nav-item a.active,
+.navbar .nav-item a:hover
+{
+    color: #fff;
+    background: green;
+}
+
+.navbar form button
+{
+    background-color: green;
+    color: white;
+}
+
+.navbar form button:hover
+{
+    background-color: black;
+}
+
+section.content
+{
+    padding: 60px;
+}
+
+section.content h2
+{
+    margin: 0;
+    padding: 0;
+    font-size: 2em;
+}
+
+section.content p
+{
+    margin: 20px 0 0;
+    padding: 0;
+    font-size: 1.1em;
+    text-align: justify;
+    text-indent: 54px;
+}
+
+.myMargin{
+    margin: 25px;
+    margin-left: 5px;
+}
+
+.carousel 
+{
+    position: relative;
+    z-index: 1;
+}
+
+
+/*index*/
+.wall1
+{
+    width: 100%;
+    height: 100vh;
+    background: url('../images/wallpapers/wallpaper1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    
+}
+
+/*index*/
+.wall2
+{
+    width: 100%;
+    height: 100vh;
+    background: url('../images/wallpapers/wallpaper2.jpg');
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+/*login*/
+.wall3
+{
+    width: 100%;
+    height: 100vh;
+    background: url('../images/wallpapers/wallpaper3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*signup*/
+.wall4
+{
+    width: 100%;
+    height: 100vh;
+    background: url('../images/wallpapers/wallpaper4.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.wall5
+{
+    width: 100%;
+    height: 100vh;
+    background: url('../images/wallpapers/wallpaper5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wall6
+{
+    width: 100%;
+    height: 100vh;
+    background: url('../images/wallpapers/wallpaper6.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: .5;
+}
+
+/*Kasargode */
+.wall7
+{
+    width: 100%;
+    height: 100vh;
+    background: url('../images/1_kasargode/bekal_fort.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*Kannur */
+.wall8
+{
+    width: 100%;
+    height: 100vh;
+    background: url('../images/2_kannur/wallpaper.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*Kozhikode */
+.wall9
+{
+    width: 100%;
+    height: 100vh;
+    background: url('../images/3_kozhikode/wallpaper.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*Wayanad */
+.wall10
+{
+    width: 100%;
+    height: 100vh;
+    background: url('../images/4_wayanad/wallpaper.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*Malappuram */
+.wall11
+{
+    width: 100%;
+    height: 100vh;
+    background: url('../images/5_malappuram/wallpaper.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*Palakkad */
+.wall12
+{
+    width: 100%;
+    height: 100vh;
+    background: url('../images/6_palakkad/wallpaper.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*Thrissur */
+.wall13
+{
+    width: 100%;
+    height: 100vh;
+    background: url('../images/7_thrissur/wallpaper.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*Ernakulam */
+.wall14
+{
+    width: 100%;
+    height: 100vh;
+    background: url('../images/8_ernakulam/wallpaper.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*Idukki */
+.wall15
+{
+    width: 100%;
+    height: 100vh;
+    background: url('../images/9_idukki/wallpaper.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*Kottayam */
+.wall16
+{
+    width: 100%;
+    height: 100vh;
+    background: url('../images/10_kottayam/wallpaper.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*Alappuzha */
+.wall17
+{
+    width: 100%;
+    height: 100vh;
+    background: url('../images/11_alappuzha/wallpaper.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*Pathanamthitta */
+.wall18
+{
+    width: 100%;
+    height: 100vh;
+    background: url('../images/12_pathanamthitta/wallpaper.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*Kollam */
+.wall19
+{
+    width: 100%;
+    height: 100vh;
+    background: url('../images/13_kollam/wallpaper.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: .9;
+}
+
+/*Trivandrum */
+.wall20
+{
+    width: 100%;
+    height: 100vh;
+    background: url('../images/14_trivandrum/wallpaper.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+
+.wall21
+{
+    width: 100%;
+    height: 100vh;
+    background: url('../images/wallpapers/wallpaper7.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wall22
+{
+    width: 100%;
+    height: 100vh;
+    background: url('../images/wallpapers/wallpaper8.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wall23
+{
+    width: 100%;
+    height: 100vh;
+    background: url('../images/wallpapers/wallpaper10.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.btn-primary
+{
+    width: 100%;
+    font-size: medium;
+    background-color: green;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.btn-primary:hover
+{
+    background-color: black;
+}
+
+.form-heading
+{
+    text-align: center;
+    color: white;
+}
+
+.sign-up-link,
+.login-link
+{
+    color: white;
+    font-size: medium;
+}
+
+.images
+{
+    justify-content: space-around;
+}
+
+.img-container
+{
+    height: 300px;
+    width: 600px;
+    position: relative;
+}
+
+.img-container img
+{
+    height: 100%;
+    width: 100%;
+}
+
+/* Showing text over an image on hover */
+a.hovertext 
+{
+    position: relative;
+    width: 100%;
+    text-decoration: none !important;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+ }
+ 
+a.hovertext::after 
+{
+    content: attr(title);
+    position: absolute;
+    left: 11;
+    bottom: 0;
+    padding: .25em ;
+    width: 86%;
+    background: rgba(1, 8, 3, 0.8);
+    text-decoration: none !important;
+    color: #fff;
+    opacity: 0;
+}
+
+a.hovertext:hover::after, 
+a.hovertext:focus::after
+{
+    opacity: 1;
+    
+}
+/* Showing text over an image on hover */
+ 
+figure 
+{
+    border: thick #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 90%; 
+    margin: auto;
+}
+
+figcaption 
+{
+    background-color: rgb(13, 122, 37);
+    color: #fff;
+    font: smaller 'Roboto' , sans-serif;
+    padding: 5px;
+    text-align: center;
+}
+
+.card-img
+{
+    border: 1px solid rgba(0,0,0,.8);
+}
+
+
+ /* Footer */
+.foot-tag
+{
+    background-color: black;
+    color: white;
+    height: 2em;
+    margin-top: 30%;
+    margin-bottom: 0;
+    font-family: 'Roboto',sans-serif;
+}
+
+.foot-tag h6
+{
+    text-align: center;
+}
+/* Footer */
+
+
+.row
+{
+    padding: 10px;
+}
+
+.card-title
+{
+    color: black;
+}
+
+.card-text
+{
+    color: black;
+    text-align: justify;
+}
+
+.login-form,
+.signup-form
+{
+    /* float: right; */
+    border-radius: 25px;
+    background: #61cab0;
+    padding: 25px 30px;
+    width: 400px;
+    height: 100%;
+}
+
+.content ul
+{
+    padding: 50px;
+}
+
+.content li{
+    list-style: square;
+    margin-bottom: 5px;
+    line-height: 1.2em;
+}
+
+/* Image transitions */
+.img-container{
+    /* background-color: white; */
+    height: 300px;
+    width: 600px;
+    /* border: 10px solid black; */
+    position: relative;
+    margin-top: 50px;
+}
+
+.img-container img{
+    height: 100%;
+    width: 100%;
+
+}
+
+/* transition1 */
+
+.transition-img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    transition: opacity .5s ease;
+}
+
+.transition-img:hover{
+    opacity: 1;
+}
+/* transition1 */
+
+/*Image Slider effect */
+.banner1,.banner2,.banner3,.banner4{
+    height: 100vh;
+    width: 100%;    /* adjust banner width*/
+    position: absolute;
+    top:35px;
+    left: 0;
+    
+}
+
+/* img */
+.banner1 img,
+.banner2 img,
+.banner3 img,
+.banner4 img
+{
+    width: 110%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%); 
+    /*Animation */
+    animation: zoom-out 5s linear infinite;
+    
+}
+
+@keyframes zoom-out{
+    100%{
+        width: 100%;
+    }
+}
+
+.text-box{
+    width: 600px;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    color: white;
+    animation: textup 10s linear infinite;
+    transform: translateY(100px);
+}
+
+@keyframes textup{
+    10%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+.text-box h1{
+    margin-bottom: 40px;
+}
+
+.text-box p{
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 80px;
+}
+
+.text-box span{
+    background: white;
+    height: 1px;
+    width: 300px;
+    position: absolute;
+    left: 0;
+
+}
+
+.text-box1{
+    animation-delay: 0s;
+}
+.text-box2{
+    animation-delay: 3s;
+}
+.text-box3{
+    animation-delay: 6s;
+}
+.text-box4{
+    animation-delay: 9s;
+}
+
+.banner1{
+    animation: slide1 12s linear infinite;
+}
+.banner2{
+    animation: slide2 12s linear infinite;
+}
+.banner3{
+    animation: slide3 12s linear infinite;
+}
+.banner4{
+    animation: slide4 12s linear infinite;
+}
+
+@keyframes slide1{
+    0%{ visibility: visible;}25%{visibility: hidden;}50%{visibility: hidden;}75%{visibility: hidden;}100%{visibility: visible;}
+}
+@keyframes slide2{
+    0%{ visibility: hidden;}25%{visibility: hidden;}50%{visibility: visible;}75%{visibility: hidden;}100%{visibility: hidden;}
+}
+@keyframes slide3{
+    0%{ visibility: hidden;}25%{visibility: hidden;}50%{visibility: hidden;}75%{visibility: visible;}100%{visibility: hidden;}
+}
+@keyframes slide4{
+    0%{ visibility: hidden;}25%{visibility: hidden;}50%{visibility: hidden;}75%{visibility: hidden;}100%{visibility: visible;}
+}
+
+/*Image Slider effect */
+
+
+.container a
+{
+    width  :100%;
+    /* margin-top: 40px; */
+    margin-left: 420px;
+    padding-top: 5px;
+    padding-right:40px;
+    padding-bottom: 5px;
+    padding-left: 40px;
+    text-decoration: none !important;
+    background-color: green;
+    color: white;
+    border: 2px solid green;
+    border-radius: 5px;
+}
+
+/*Form validation */
+/* .loginform .btn .disabled
+{
+    background: #727272;
+}
+
+.loginform .btn .enabled
+{
+    cursor: pointer;
+}
+
+.loginform .error-msg,
+.loginform #loginform-error-msg
+{
+    font-size: 15px;
+    margin-bottom: 5px;
+    color: #f74040;
+    display: none;
+} */
